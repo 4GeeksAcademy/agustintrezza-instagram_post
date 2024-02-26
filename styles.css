@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+}
+.container {
+    width: 39%;
+    margin: auto;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.container-header {
+    background-color: white;
+}
+.title-container-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.main-section-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-header {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+.dots {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 25px;
+    margin-right: 15px;
+    transition: all ease-in-out .3s;
+}
+.dots:hover {
+    cursor: pointer;
+    margin: 0px;
+    font-size: 23px;
+    margin-right: 15px;
+    color: violet;
+    transform: scale(1.1);
+}
+.html-icon {
+    width: 27px;
+    height: 27px;
+}
+.save-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.main-image {
+    width: 100%;
+    height: 20rem;
+}
+.title-first {
+    font-size: 17px;
+    margin: 0rem;
+    font-family: sans-serif;
+}
+.section-title {
+    font-size: 19px;
+    margin: 0rem;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin-top: 1rem;
+    font-family: sans-serif;
+}
+.subtitle {
+    font-size: 16px;
+    margin: 0rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.logo {
+    width: 30px;
+    height: 30px;
+    margin-right: 9px;
+    cursor: pointer;
+}
+.main-section {
+    background-color: white;
+    padding: 1rem;
+}
+.font-weigth {
+    font-weight: 400;
+    font-size: 15px;
+}
+.text {
+    font-size: 17px;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+}
+.presentation {
+    font-size: 20px;
+    margin-top: 1rem;
+    font-family: sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.icon {
+    font-size: 30px;
+    margin-right: 12px;
+    transition: all ease-in-out .3s;
+}
+.icon:hover {
+    font-size: 30px;
+    cursor: pointer;
+    color: violet;
+    transform: scale(1.1);
+}
+.icon-secondary {
+    font-size: 34px;
+    margin-right: 10px;
+    transition: all ease-in-out .3s;
+}
+.icon-secondary:hover {
+    cursor: pointer;
+    color: rgb(54, 137, 255);
+    transform: scale(1.1);
+}
